@@ -9,6 +9,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class User {
 
+    private Integer userId;
+
     private String name;
 
     private Integer age;
